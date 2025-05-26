@@ -10,3 +10,7 @@ Definisi Stratified ShuffleSplit: Validator silang atau cross validator yang men
 ## Hasil ROC AUC (Tahap Evaluasi Model)
 <img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss/roc_auc.png" width="600" />
 Model Decision Tree saat menggunakan stratified performanya mengalami kenaikan yang cukup signifikan, yaitu dari 0.74xx ke 0.90xx. Sedangkan Model Random Forest mengalami penurunan sekitar 0.01xx.
+
+## Dataset
+balanced: https://www.kaggle.com/datasets/chandanmsr/more-accurate-lung-cancer-dataset <br>
+imbalanced: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer
