@@ -4,6 +4,10 @@ thesis research
 ## Info Studi 1
 ini adalah penjelasan dari : https://github.com/yashlan/lung-cancer-prediction/blob/main/thesis_lung_cancer_prediction.ipynb
 
+## Dataset
+dataset: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer <br>
+jumlah data (baris): 309
+
 ## Distribusi Data
 <img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss/distribusi.png" width="400" />
 Berdasarkan grafik diatas, datanya tidak seimbang. Lebih dominan pada kelas YES. bagusnya tambahkan metode SMOTE atau lainnya. namun studi ini tidak fokus kesana, jadi tidak dibuat.
@@ -33,14 +37,17 @@ Definisi Stratified ShuffleSplit: Validator silang atau cross validator yang men
 <img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss/roc_auc.png" width="600" />
 Model Decision Tree saat menggunakan stratified performanya mengalami kenaikan yang cukup signifikan, yaitu dari 0.74xx ke 0.90xx. Sedangkan Model Random Forest mengalami penurunan sekitar 0.01xx.
 
-## Dataset
-dataset: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer <br>
-jumlah data (baris): 309
-
-========================================================================================================================================================================================================================================================================================================================================================
+---
+---
+---
+---
 
 ## Info Studi 2
 ini adalah penjelasan dari : https://github.com/yashlan/lung-cancer-prediction/blob/main/thesis_lung_cancer_prediction_newww.ipynb
+
+## Dataset
+dataset: https://www.kaggle.com/datasets/chandanmsr/more-accurate-lung-cancer-dataset <br>
+jumlah data (baris): 1157
 
 ## Distribusi Data
 <img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss_2/distribusi.png" width="400" />
@@ -64,7 +71,3 @@ Studi ini menggunakan 10-fold cross-validation untuk memastikan bahwa hasil eval
 | Decision Tree | 0.0140         | 0.0066         | 0.0027                   | 0.1860               | 0.0012                  | 0.0230              | 0.0627                 | 0.0177                  | 0.0369                | 0.0121                 |
 | Random Forest | 0.7139         | 0.0386         | 0.0699                   | 0.2270               | 0.0087                  | 0.0248              | 2.8809                 | 1.1854                  | 0.1721                | 0.0666                 |
 
-
-## Dataset
-dataset: https://www.kaggle.com/datasets/chandanmsr/more-accurate-lung-cancer-dataset <br>
-jumlah data (baris): 1157
