@@ -59,11 +59,11 @@ Studi ini menggunakan 10-fold cross-validation untuk memastikan bahwa hasil eval
 | AUC (0.00)     | 0.91          | 0.94           |
 
 ## Performa Komputasi
-| Model         | Execution Time (s) | Training Memory Usage (MB) | Testing Memory Usage (MB) | Training Energy Usage (J) | Testing Energy Usage (J) |
-|---------------|---------------------|-----------------------------|-----------------------------|-----------------------------|----------------------------|
-|               | Training | Testing | Current | Peak   | Current | Peak   | CPU    | DRAM   | CPU    | DRAM   |
-| Decision Tree | 0.0140   | 0.0066  | 0.0027  | 0.1860 | 0.0012  | 0.0230 | 0.0627 | 0.0177 | 0.0369 | 0.0121 |
-| Random Forest | 0.7139   | 0.0386  | 0.0699  | 0.2270 | 0.0087  | 0.0248 | 2.8809 | 1.1854 | 0.1721 | 0.0666 |
+| Model         | Training Time (s) | Testing Time (s) | Training Memory Current (MB) | Training Memory Peak (MB) | Testing Memory Current (MB) | Testing Memory Peak (MB) | Training CPU Energy (J) | Training DRAM Energy (J) | Testing CPU Energy (J) | Testing DRAM Energy (J) |
+|---------------|----------------|----------------|--------------------------|----------------------|-------------------------|---------------------|------------------------|-------------------------|-----------------------|------------------------|
+| Decision Tree | 0.0140         | 0.0066         | 0.0027                   | 0.1860               | 0.0012                  | 0.0230              | 0.0627                 | 0.0177                  | 0.0369                | 0.0121                 |
+| Random Forest | 0.7139         | 0.0386         | 0.0699                   | 0.2270               | 0.0087                  | 0.0248              | 2.8809                 | 1.1854                  | 0.1721                | 0.0666                 |
+
 
 ## Dataset
 dataset: https://www.kaggle.com/datasets/chandanmsr/more-accurate-lung-cancer-dataset <br>
