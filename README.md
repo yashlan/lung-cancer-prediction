@@ -1,49 +1,9 @@
 # lung cancer prediction
-thesis research
+my thesis research <br>
+source code : https://github.com/yashlan/lung-cancer-prediction/blob/main/thesis_lung_cancer_prediction.ipynb
 
-## Info Studi 1
-ini adalah penjelasan dari : https://github.com/yashlan/lung-cancer-prediction/blob/main/thesis_lung_cancer_prediction.ipynb
-
-## Dataset
-dataset: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer <br>
-jumlah data (baris): 309
-
-## Distribusi Data
-<img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss/distribusi.png" width="400" />
-Berdasarkan grafik diatas, datanya tidak seimbang. Lebih dominan pada kelas YES. bagusnya tambahkan metode SMOTE atau lainnya. namun studi ini tidak fokus kesana, jadi tidak dibuat.
-
-## Hasil Split Data
-<img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss/st_comparasion.png" width="600" />
-Grafik diatas menggambarkan perbedaan distribusi antara memakai stratify (Stratified ShuffleSplit) dengan yg tidak memakai stratify (hanya ShuffleSplit). Menggunakan stratify membuat proposi data train dan test menjadi lebih seimbang.<br>
-Definisi Stratified ShuffleSplit: Validator silang atau cross validator yang menyediakan indikator latih/uji untuk membagi data dalam set latih/uji. Objek cross validation ini merupakan gabungan dari StratifiedKFold dan ShuffleSplit, yang mengembalikan lipatan acak bertingkat. Lipatan dibuat dengan mempertahankan persentase sampel untuk setiap kelas. sumber: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html
-
-## Performa Klasifikasi
-| Model      | Stratified | Accuracy | Precision YES | Precision NO | Recall YES | Recall NO | F1-score YES | F1-score NO | AUC  |
-|----------------|------------|----------|---------------|--------------|------------|-----------|---------------|--------------|------|
-| Decision Tree  | No         | 97%      | 98%           | 50%          | 98%        | 50%       | 98%           | 50%          | 0.74 |
-| Decision Tree  | Yes        | 92%      | 98%           | 64%          | 93%        | 88%       | 95%           | 74%          | 0.90 |
-| Random Forest  | No         | 97%      | 98%           | 50%          | 98%        | 50%       | 98%           | 50%          | 0.95 |
-| Random Forest  | Yes        | 92%      | 96%           | 67%          | 94%        | 75%       | 95%           | 71%          | 0.94 |
-
-## Performa Komputasi
-| Algorithm      | Stratified | Execution Time (s) | RAM Usage (MB)    | CPU Energy (J)     |
-|----------------|------------|---------------------|--------------------|---------------------|
-| Decision Tree  | No         | 0.0011 – 0.0096     | 0.0009 – 0.0069    | 0.0105 – 0.1183     |
-| Decision Tree  | Yes        | 0.0011 – 0.0112     | 0.0009 – 0.0037    | 0.0051 – 0.1133     |
-| Random Forest  | No         | 0.1126 – 0.2220     | 0.0633 – 0.0721    | 1.0331 – 3.7964     |
-| Random Forest  | Yes        | 0.1121 – 0.2306     | 0.0653 – 0.0724    | 1.0371 – 2.6858     |
-
-## Grafik ROC AUC
-<img src="https://github.com/yashlan/lung-cancer-prediction/blob/main/ss/roc_auc.png" width="600" />
-Model Decision Tree saat menggunakan stratified performanya mengalami kenaikan yang cukup signifikan, yaitu dari 0.74xx ke 0.90xx. Sedangkan Model Random Forest mengalami penurunan sekitar 0.01xx.
-
----
----
----
----
-
-## Info Studi 2
-ini adalah penjelasan dari : https://github.com/yashlan/lung-cancer-prediction/blob/main/thesis_lung_cancer_prediction_newww.ipynb
+## Paper
+coming soon
 
 ## Dataset
 dataset: https://www.kaggle.com/datasets/chandanmsr/more-accurate-lung-cancer-dataset <br>
@@ -71,3 +31,8 @@ Studi ini menggunakan 10-fold cross-validation untuk memastikan bahwa hasil eval
 | Decision Tree | 0.0140         | 0.0066         | 0.0027                   | 0.1860               | 0.0012                  | 0.0230              | 0.0627                 | 0.0177                  | 0.0369                | 0.0121                 |
 | Random Forest | 0.7139         | 0.0386         | 0.0699                   | 0.2270               | 0.0087                  | 0.0248              | 2.8809                 | 1.1854                  | 0.1721                | 0.0666                 |
 
+## Future Research
+Sebagai bentuk komitmen terhadap transparansi dan kolaborasi ilmiah, seluruh kode sumber, data, dan hasil penelitian ini telah diunggah ke GitHub dan dapat diakses secara terbuka oleh semua pihak. Tidak ada manipulasi data; seluruh hasil disajikan sebagaimana adanya.<br><br>
+Penelitian ini berkontribusi dalam memperluas pemahaman mengenai pemanfaatan machine learning untuk diagnosis medis berbasis real-time, terutama di lingkungan layanan kesehatan yang terbatas. Penelitian selanjutnya disarankan untuk mengeksplorasi metode ensemble lanjutan seperti XGBoost atau LightGBM, serta mengintegrasikan pendekatan Explainable AI (XAI) guna meningkatkan transparansi dan kepercayaan pengguna terhadap model yang dikembangkan.<br><br>
+Validasi menggunakan data klinis nyata juga sangat penting agar model yang dibangun dapat digeneralisasi dengan baik ke dalam praktik medis sehari-hari. Pengujian di berbagai institusi kesehatan dengan kondisi operasional yang beragam juga direkomendasikan untuk menilai ketahanan (robustness) dan adaptabilitas sistem.<br><br>
+Saya akan sangat menghargai apabila ada pihak yang melakukan koreksi terhadap studi ini, menjadikannya sebagai jurnal pembanding, memperluas kajian dengan pendekatan atau variabel yang berbeda, ataupun mengaplikasikan temuan studi ini dalam konteks atau wilayah yang lain. Setiap bentuk pengembangan atau kritik terhadap penelitian ini akan menjadi kontribusi berarti bagi kemajuan bidang ini secara kolektif.
