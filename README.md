@@ -3,7 +3,8 @@ my thesis research <br>
 source code : https://github.com/yashlan/lung-cancer-prediction/blob/main/thesis_lung_cancer_prediction.ipynb
 
 ## Paper
-coming soon
+link: https://jutif.if.unsoed.ac.id/index.php/jurnal/article/view/4877/1020 <br>
+DOI: https://doi.org/10.52436/1.jutif.2025.6.5.4877
 
 ## Dataset
 dataset: https://www.kaggle.com/datasets/chandanmsr/more-accurate-lung-cancer-dataset <br>
